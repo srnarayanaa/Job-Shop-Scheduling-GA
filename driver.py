@@ -26,7 +26,7 @@ def populate(size, jobs, operations):
 
 		for machine in range(len(operation_vector)):machine_vector.append(random.randrange(1, machines+1))
 
-		population.append((OS, MS))
+		population.append((operation_vector, machine_vector))
 
 	return population	
 
